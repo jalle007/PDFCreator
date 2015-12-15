@@ -36,7 +36,7 @@ namespace PDFCreator
       txtLogo.Text= Path.Combine(Environment.CurrentDirectory, @"Resources\logo.png");
       txtImg1.Text= Path.Combine(Environment.CurrentDirectory, @"Resources\globe.png");
       txtImg2.Text = Path.Combine(Environment.CurrentDirectory, @"Resources\tree.png");
-      txtOutput.Text = Path.Combine(Environment.CurrentDirectory, @"PDFs\"+ output);
+      txtOutput.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), output);
     }
 
     private void FillCombo()

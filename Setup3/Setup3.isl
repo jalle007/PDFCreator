@@ -343,7 +343,6 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{8EAD9C6B-F0E1-4088-B344-556850D26E9E}</td><td>RESOURCES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{2A39D8D9-66D4-44CC-B143-305486F74302}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{86246BBB-EE93-4408-9766-5ED4FE45CABF}</td><td>PDFS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>PDFCreator.Content_Files</td><td>{8CF82462-490D-425B-9A32-B0169A820AA3}</td><td>INSTALLDIR</td><td>2</td><td/><td>pdfcreator.content_files</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>PDFCreator.exe</td><td>{341D1382-C045-43A7-8856-5D55E5843FAB}</td><td>INSTALLDIR</td><td>2</td><td/><td>pdfcreator.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>itextsharp.dll</td><td>{549F3483-C89A-489C-B672-88C611E1E640}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1058,11 +1057,9 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>INSTALLDIR</td><td>PDFCreator.Content_Files</td></row>
 		<row><td>INSTALLDIR</td><td>PDFCreator.exe</td></row>
 		<row><td>INSTALLDIR</td><td>itextsharp.dll</td></row>
-		<row><td>PDFS</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>RESOURCES</td><td>ISX_DEFAULTCOMPONENT</td></row>
 	</table>
 
@@ -1165,7 +1162,6 @@
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>PDFCREATOR</td><td>JASMIN</td><td>PDFCRE~1|PDFCreator</td><td/><td>0</td><td/></row>
-		<row><td>PDFS</td><td>INSTALLDIR</td><td>PDFs</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
 		<row><td>PrimaryVolumePath</td><td>TARGETDIR</td><td>.:Primar~1|PrimaryVolumePath</td><td/><td>0</td><td/></row>
 		<row><td>PrintHoodFolder</td><td>TARGETDIR</td><td>.:PRINTH~1|PrintHood</td><td/><td>0</td><td/></row>
@@ -1881,7 +1877,6 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 		<row><td>AlwaysInstall</td><td>PDFCreator.Content_Files</td></row>
 		<row><td>AlwaysInstall</td><td>PDFCreator.exe</td></row>
 		<row><td>AlwaysInstall</td><td>itextsharp.dll</td></row>
@@ -2051,7 +2046,6 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_AC842A25_BF2D_4661_AEE6_8D8266BCEE97_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_32031863_548A_48E1_8DA4_43014106AECE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_8F40A8FF_A787_4E6D_AE95_1DFFBC887372_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>PDFCreator.Content_Files</td><td/><td/><td>_A9D63B2C_7D95_4452_8DC2_610245D4E1CF_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>PDFCreator.exe</td><td/><td/><td>_6A5AF5E8_FDB9_4DF1_82C4_C7C20C654B12_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>itextsharp.dll</td><td/><td/><td>_120A33EA_3400_4D06_A2DF_CD486BD435CF_FILTER</td><td/><td/><td/><td/></row>
@@ -2643,7 +2637,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Jasmin</td><td>0</td><td/><td>2116280055</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Jasmin</td><td>0</td><td/><td>-2044486144</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>2116257527</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>2116257527</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION35</td><td>1033</td><td>Microsoft .NET Framework 3.5 needs to be installed for this installation to continue.</td><td>0</td><td/><td>2116273943</td></row>
@@ -3746,8 +3740,9 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>2116257527</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>2116257527</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>2116259575</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://jallenet.blogspot.ba/p/about-me.html</td><td>0</td><td/><td>2116249367</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>Jasmin</td><td>0</td><td/><td>2116280055</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.Jasmin.com</td><td>0</td><td/><td>-2044486144</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Jasmin</td><td>0</td><td/><td>-2044486144</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch PDFCreator.exe</td><td>0</td><td/><td>-2044500480</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>2116257527</td></row>
 	</table>
 
@@ -3862,6 +3857,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>PDFCreator.exe1_5CA69BFFCAC549B591E025088A101AD4.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>PDFCreator.exe_BEE36E48093542CA91FB1EAF9060EB1E.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
 
@@ -4539,6 +4535,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
 		<row><td>PDFCreator.exe</td><td>pdfcre_1_pdfcreator</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PDFCreator.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>PDFCreator.exe_BEE36E48093542CA91FB1EAF9060EB1E.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>PDFCreator.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PDFCreator.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>PDFCreator.exe1_5CA69BFFCAC549B591E025088A101AD4.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
