@@ -8,12 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml.Serialization;
-using PDFDocument2;
 
 namespace PDFCreator
 {
   public partial class Form2 : Form
   {
+    private string output = "xml2pdf.pdf";
     public Form2()
     {
       InitializeComponent();
@@ -29,7 +29,7 @@ namespace PDFCreator
       StreamReader sr = new StreamReader(file, System.Text.Encoding.Default);
       richTextBox1.Text=sr.ReadToEnd();
 
-      txtOutput.Text = Path.Combine(Environment.CurrentDirectory, @"PDFs\xml2pdf.pdf" );
+      txtOutput.Text = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),output );
     }
 
     private void button1_Click(object sender, EventArgs e)
