@@ -1,10 +1,7 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
@@ -37,7 +34,6 @@ namespace PDFCreator
     }
     public PDFDocument()
     {
-      var x = 0;
     }
 
     /*  create Header using PageEvents for its generated on every page
@@ -66,14 +62,12 @@ namespace PDFCreator
 
         BaseFont bf2 = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, false);
         iTextSharp.text.Font aragraphF = new iTextSharp.text.Font(bf2, 12, iTextSharp.text.Font.NORMAL);
-        BaseFont bf3 = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, false);
-        iTextSharp.text.Font tableF = new iTextSharp.text.Font(bf3, 8, iTextSharp.text.Font.NORMAL);
 
         PdfPTable table2 = new PdfPTable(4);
         //table2.DefaultCell.CellEvent = new PDFDocument.CellSpacingEvent(10);
         table2.DefaultCell.Padding = 10;
         table2.TotalWidth = doc.PageSize.Width - doc.LeftMargin - doc.RightMargin; //this centers table
-        int border = Rectangle.NO_BORDER;
+        const int border = Rectangle.NO_BORDER;
 
         //text1
         PdfPCell cell2 = new PdfPCell(new Phrase(body.text1, new Font(Font.FontFamily.HELVETICA, 12)));
@@ -218,15 +212,8 @@ namespace PDFCreator
     }
     public PageInfo(SerializationInfo info, StreamingContext ctxt)
     {
-      var x = info;
-
-    }
-    [OnDeserialized()]
-    public void OnDeserialized_Method(StreamingContext context)
-    {
-      // This code never gets called
-      Console.WriteLine("OnDeserialized");
-    }
+  }
+  
   }
   [Serializable()]
   public class BodyInfo

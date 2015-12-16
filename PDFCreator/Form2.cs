@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
@@ -13,7 +8,7 @@ namespace PDFCreator
 {
   public partial class Form2 : Form
   {
-    private string output = "xml2pdf.pdf";
+    private readonly string output = "xml2pdf.pdf";
     public Form2()
     {
       InitializeComponent();

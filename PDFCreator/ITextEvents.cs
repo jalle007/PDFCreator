@@ -1,8 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
@@ -19,12 +15,11 @@ namespace PDFCreator
     {
       try
       {
-        PdfPTable table2 = new PdfPTable(3);
-        table2.TotalWidth = doc.PageSize.Width - doc.LeftMargin - doc.RightMargin; //this centers [table]
+        PdfPTable table2 = new PdfPTable(3) {TotalWidth = doc.PageSize.Width - doc.LeftMargin - doc.RightMargin};
+        //this centers [table]
 
         //logo
-        PdfPCell cell2 = new PdfPCell(Image.GetInstance(header.logo));
-        cell2.Border = Rectangle.NO_BORDER;
+        PdfPCell cell2 = new PdfPCell(Image.GetInstance(header.logo)) {Border = Rectangle.NO_BORDER};
         table2.AddCell(cell2);
 
         //title
