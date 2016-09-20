@@ -1,3 +1,3 @@
 # PDFCreator
 
-Automatically create PDF documents using input parameters - VB.NET DEMO project 
+Automatically create PDF documents using input parameters -  DEMO project 
